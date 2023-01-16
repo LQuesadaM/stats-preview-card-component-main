@@ -1,0 +1,55 @@
+:root {
+    /* Background Color */
+    --main-background: #090b1a;
+    --card-background: #1b1938;
+
+    /* Font Color */
+    --accent:          #aa5cdb;
+    --white-color: #ffffff;
+    --main-paragraph: #ffffffbf;
+    --stat-headings: #ffffff99;
+
+    /* Tipografía */
+    --principal: Lexend Deca, sans-serif;
+    --secundaria: Inter, sans-serif;
+
+}
+
+/* Movile First */
+
+body {
+    background-color: var(--main-background);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution__link { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
