@@ -9,7 +9,6 @@ lerna-debug.log*
 
 ignore
 ignore
-public
 node_modules
 dist
 dist-ssr
