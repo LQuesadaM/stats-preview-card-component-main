@@ -37,7 +37,8 @@ body {
 }
 
 .wrap {
-    min-height: 16em;
+    height: 100%;
+    width: 100%;
     position: relative;
 }
 
@@ -61,7 +62,7 @@ body {
     font-size: 2em;
     font-family: var(--main-paragraph);
     font-weight: 700;
-    padding: 0.2rem 0;
+    padding: .2rem 0;
     line-height: 1.2em;
 }
 
@@ -81,7 +82,7 @@ body {
 }
 
 .stats {
-    padding: 0.8rem;
+    padding: .8rem;
     /* margin: 1.5em; */
 }
 
@@ -112,3 +113,25 @@ body {
 }
 
 
+
+
+@media screen and (min-width:64rem) {
+    .main, .stats-content {
+        display: flex;
+    }
+        
+    .main {
+        flex-direction: row-reverse;
+        min-height: 21.875rem;
+        max-width: 64rem;
+    }
+
+    .content {
+        padding: 32px 64px 0 0;
+    }
+
+    .stats-content {
+        justify-content: space-between;
+
+    }
+}
